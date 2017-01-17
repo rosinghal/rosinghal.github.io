@@ -1,0 +1,26 @@
+{
+  "name": "AngularJS Material Carousel",
+  "homepage": "https://github.com/rosinghal/angularjs-material-carousel",
+  "authors": [
+    "Rohit Singhal <rohitsinghal.rs@gmail.com>"
+  ],
+  "description": "Carousel using AngularJS Material.",
+  "main": [
+    "./angularjs-material-carousel.js",
+    "./angularjs-material-carousel.css"
+  ],
+  "keywords": [
+    "carousel",
+    "angularjs",
+    "material",
+    "slider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

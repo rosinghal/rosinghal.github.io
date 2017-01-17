@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AngularJS Material Carousel</title>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.css">
+	<link rel="stylesheet" type="text/css" href="./angularjs-material-carousel.css">
+	<style type="text/css">
+		.material-carousel-container {
+			max-width: 400px;
+		}
+	</style>
+</head>
+<body>
+	<md-content>
+		<md-toolbar class="md-whiteframe-z1">
+			<div class="md-toolbar-tools">
+				<h2>AngularJS Material Carousel</h2>
+			</div>
+		</md-toolbar>
+		<div flex layout="column" layout-align="center center">
+			<div class="material-carousel-container" material-carousel material-carousel-slides="[
+				{url: 'http://www.planwallpaper.com/static/images/desktop-year-of-the-tiger-images-wallpaper.jpg', caption: 'White Tiger'},
+				{url: 'http://hdwallpapershdpics.com/wp-content/uploads/2015/08/free_high_resolution_images_for_download-1.jpg', caption: 'Scenary'},
+			]"></div>
+		</div>
+	</md-content>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.js"></script>
+	<script type="text/javascript" src="./angularjs-material-carousel.js"></script>
+
+	<script type="text/javascript">
+		angular.module('materialCarouselDemo', ['ngMaterial', 'materialCarousel']);
+		angular.bootstrap(document, ['materialCarouselDemo']);
+	</script>
+</body>
+</html>
