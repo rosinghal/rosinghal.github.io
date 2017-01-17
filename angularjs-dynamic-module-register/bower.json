@@ -1,0 +1,24 @@
+{
+  "name": "angular-dynamic-module-register",
+  "homepage": "https://github.com/rosinghal/angularjs-dynamic-module-register",
+  "authors": [
+    "Rohit Singhal <rohitsinghal.rs@gmail.com>"
+  ],
+  "description": "Dynamically register module in your AngularJS application.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "dynamic",
+    "module",
+    "register"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
