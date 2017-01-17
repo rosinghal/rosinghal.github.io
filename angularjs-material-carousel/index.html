@@ -9,6 +9,9 @@
 		.material-carousel-container {
 			max-width: 400px;
 		}
+		.white-icon {
+			fill: white;
+		}
 	</style>
 </head>
 <body>
@@ -16,6 +19,11 @@
 		<md-toolbar class="md-whiteframe-z1">
 			<div class="md-toolbar-tools">
 				<h2>AngularJS Material Carousel</h2>
+				<span flex></span>
+		        <md-button class="md-icon-button" ng-href="https://github.com/rosinghal/angular-material-carousel" aria-label="Github">
+		            <md-tooltip md-delay="1000">Github</md-tooltip>
+		            <ng-md-icon icon="github-circle" class="white-icon"></ng-md-icon>
+		        </md-button>
 			</div>
 		</md-toolbar>
 		<div flex layout="column" layout-align="center center">
@@ -31,10 +39,11 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-aria.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.7.1/angular-material-icons.min.js"></script>
 	<script type="text/javascript" src="./angularjs-material-carousel.js"></script>
 
 	<script type="text/javascript">
-		angular.module('materialCarouselDemo', ['ngMaterial', 'materialCarousel']);
+		angular.module('materialCarouselDemo', ['ngMaterial', 'materialCarousel', 'ngMdIcons']);
 		angular.bootstrap(document, ['materialCarouselDemo']);
 	</script>
 </body>

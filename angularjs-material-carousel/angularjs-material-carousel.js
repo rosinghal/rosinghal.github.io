@@ -19,9 +19,9 @@
 						</md-tab-label>
 						<md-tab-body>
 							<div flex layout="column" layout-align="center center">
-								<img ng-src="{{slide.url}}" ng-attr-alt="Image" />
+								<img ng-src="{{ slide.url }}" ng-attr-alt="{{ slide.caption ? slide.caption : 'Image' }}" />
 							</div>
-							<md-subheader class="amc-image-caption" ng-if="slide.caption">{{slide.caption}}</md-subheader>
+							<md-subheader class="amc-image-caption" ng-if="slide.caption">{{ slide.caption }}</md-subheader>
 						</md-tab-body>
   					</md-tab>
   				</md-tabs>`;
