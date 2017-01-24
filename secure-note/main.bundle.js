@@ -75,7 +75,14 @@ var DbService = (function () {
                     _this.data.push(row.doc);
                     resolve(_this.data);
                 });
-                _this.db.changes({ live: true, since: 'now', include_docs: true }).on('change', function (change) {
+                if (result.rows.length === 0) {
+                    resolve(_this.data);
+                }
+                _this.db.changes({
+                    live: true,
+                    since: 'now',
+                    include_docs: true
+                }).on('change', function (change) {
                     _this.handleChange(change);
                 });
             }).catch(function (error) {
@@ -199,6 +206,11 @@ var DetailComponent = (function () {
                 .subscribe(function (note) {
                 _this.loading = false;
                 _this.form = note;
+            }, function (error) {
+                _this.snackBar.open('Note : ' + error.message, 'Ok', {
+                    duration: 2000
+                });
+                _this.router.navigate(['']);
             });
         }
     };
@@ -684,7 +696,7 @@ module.exports = "<md-progress-bar mode=\"indeterminate\" *ngIf=\"loading\"></md
 /***/ 812:
 /***/ function(module, exports) {
 
-module.exports = "<md-list *ngFor=\"let note of notes\">\n  <md-list-item [routerLink]=\"['/note', note._id]\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{exact: true}\">{{note.subject}}</md-list-item>\n</md-list>\n"
+module.exports = "<md-list>\n  <md-list-item *ngFor=\"let note of notes\" [routerLink]=\"['/note', note._id]\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{exact: true}\">{{note.subject}}</md-list-item>\n  <md-list-item *ngIf=\"!notes?.length\">\n    No notes found.\n  </md-list-item>\n</md-list>\n"
 
 /***/ },
 
