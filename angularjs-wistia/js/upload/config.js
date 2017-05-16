@@ -34,7 +34,6 @@
         if (data.result.hashed_id) {
           var hashed_id = data.result.hashed_id;
           handleFile(data.result);
-          vm.checkStatus(hashed_id);
         }
       },
       progressall: function (e, data) {
