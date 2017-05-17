@@ -1,3 +1,6 @@
 [submodule "angularjs-wistia"]
 	path = angularjs-wistia
 	url = https://github.com/rosinghal/angularjs-wistia.git
+[submodule "angularjs-dynamic-module-register"]
+	path = angularjs-dynamic-module-register
+	url = https://github.com/rosinghal/angularjs-dynamic-module-register.git
