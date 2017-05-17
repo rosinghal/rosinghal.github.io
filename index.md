@@ -1,9 +1,14 @@
-## Rohit Singhal
+## Websites
+**[Xtendify](https://www.xtendify.com)**
 
-### [AngularJS Dynamic Module Register](http://rosinghal.xyz/angularjs-dynamic-module-register/)
+**[Instant Chat](https://instantchat.io/)**
 
-### [AngularJS Material Carousel](http://rosinghal.xyz/angularjs-material-carousel/)
+**[Themes Hound](https://themeshound.com/)**
 
-### [Secure Notes](http://rosinghal.xyz/secure-note/) is repo for testing angular2 and angular-cli.
+## Opensource
+**[AngularJS Dynamic Module Register](http://rosinghal.xyz/angularjs-dynamic-module-register/)**
 
-### [AngularJS Wistia](http://rosinghal.xyz/secure-note/)
+**[AngularJS Material Carousel](http://rosinghal.xyz/angularjs-material-carousel/)**
+
+**[Secure Notes](http://rosinghal.xyz/secure-note/)**
+Creating a note taking app with help of angular2, angular-cli and pouchdb.
