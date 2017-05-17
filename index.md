@@ -1,9 +1,9 @@
 ## Websites
-**[Xtendify](https://www.xtendify.com)**
+**[Xtendify](https://www.xtendify.com)** Marketplace for themes and plugins.
 
-**[Instant Chat](https://instantchat.io/)**
+**[Instant Chat](https://instantchat.io/)** Share link and start chatting instantly.
 
-**[Themes Hound](https://themeshound.com/)**
+**[Themes Hound](https://themeshound.com/)** Search engine for themes.
 
 ## Opensource
 **[AngularJS Dynamic Module Register](http://rosinghal.xyz/angularjs-dynamic-module-register/)**
