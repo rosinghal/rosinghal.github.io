@@ -12,3 +12,6 @@
 
 **[Secure Notes](http://rosinghal.xyz/secure-note/)**
 Creating a note taking app with help of angular2, angular-cli and pouchdb.
+
+**[AngularJS Wistia](http://rosinghal.xyz/angularjs-wistia/)**
+Wisitia uploader using AngularJS and Blueimp uploader.
