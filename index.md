@@ -1,5 +1,5 @@
 ## Websites
-**[Xtendify](https://www.xtendify.com)** Marketplace for themes and plugins.
+**[Xtendify](https://www.xtendify.com/)** Marketplace for themes and plugins.
 
 **[Instant Chat](https://instantchat.io/)** Share link and start chatting instantly.
 
@@ -16,5 +16,5 @@ Creating a note taking app with help of angular2, angular-cli and pouchdb.
 **[AngularJS Wistia](http://rosinghal.xyz/angularjs-wistia/)**
 Wistia uploader using AngularJS and Blueimp uploader.
 
-**[Angular Wikipedia Instant Search](http://rosinghal.xyz/angular-wikipedia-instant-search)**
+**[Angular Wikipedia Instant Search](http://rosinghal.xyz/angular-wikipedia-instant-search/)**
 Wikipedia instant search using Angular 4.
