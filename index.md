@@ -14,7 +14,7 @@
 Creating a note taking app with help of angular2, angular-cli and pouchdb.
 
 **[AngularJS Wistia](http://rosinghal.xyz/angularjs-wistia/)**
-Wisitia uploader using AngularJS and Blueimp uploader.
+Wistia uploader using AngularJS and Blueimp uploader.
 
 **[Angular Wikipedia Instant Search](http://rosinghal.xyz/angular-wikipedia-instant-search)**
 Wikipedia instant search using Angular 4.
